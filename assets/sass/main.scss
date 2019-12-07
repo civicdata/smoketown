@@ -492,10 +492,19 @@
 
 /* Form */
 
-	form {
+	div.form {
 		margin: 0 0 _size(element-margin) 0;
+		max-width: 35em;
+		margin-left: auto;
+		margin-right: auto;
 
 		&.cta {
+			max-width: 35em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		&row .gtr-uniform .gtr-50{
 			max-width: 35em;
 			margin-left: auto;
 			margin-right: auto;
@@ -566,6 +575,12 @@
 	input[type="email"],
 	select {
 		height: _size(element-height);
+		width: 35em;
+	}
+
+	div.cta{
+		width: 35em;
+		border: red solid 3px;
 	}
 
 	textarea {
@@ -658,6 +673,12 @@
 	:-ms-input-placeholder {
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
+	}
+
+	input{
+		max-width: 35em !important;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 /* Box */
