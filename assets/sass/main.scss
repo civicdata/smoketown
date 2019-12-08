@@ -750,6 +750,10 @@
 
 			&.alt {
 				@include line-icon(_palette(accent2));
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
 			}
 		}
 	}
